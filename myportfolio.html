@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thareefa - UI/UX Designer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f4f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #4A90E2;
+      color: white;
+      text-align: center;
+      padding: 2rem 2rem;
+    }
+
+    header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center 10%;
+      object-position: 30%;
+      margin-top: 2rem;
+    }
+
+    section {
+      max-width: 700px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 1s forwards;
+    }
+
+    section:nth-of-type(2) { animation-delay: 0.3s; }
+    section:nth-of-type(3) { animation-delay: 0.6s; }
+    section:nth-of-type(4) { animation-delay: 0.9s; }
+    section:nth-of-type(5) { animation-delay: 1.2s; }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    h2 {
+      color: #4A90E2;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 1rem;
+    }
+
+    ul li::before {
+      content: "🔹";
+      margin-right: 0.5rem;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin-right: 1rem;
+      color: #4A90E2;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Thareefa</h1>
+  <p>UI/UX Designer | HTML & CSS Developer</p>
+  <img src="C:\Users\bhuvaneshwari ganapa\Downloads\IMG_20250705_202917.jpg" alt="Thareefa">
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>Hello! I am Thareefa, a passionate UI/UX designer with knowledge of HTML and CSS. I love creating clean, user-friendly designs and interfaces that help people.</p>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <ul>
+    <li>UI/UX Design</li>
+    <li>HTML5</li>
+    <li>CSS</li>
+    <li>Responsive Design</li>
+    <li>Prototyping (Figma)</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Project</h2>
+  <p><strong>Naan Mudhalvan Portfolio Project</strong></p>
+  <p>I created a portfolio website showcasing my skills and journey as a designer and developer. The project focused on accessibility, layout design, and mobile responsiveness.</p>
+</section>
+
+<section class="contact">
+  <h2>Contact</h2>
+  <p>You can reach me via:</p>
+  <a href="mailto:thareefamohamed08@gmail.com">📧 thareefamohamed08@gmail.com</a><br>
+  <a href="https://www.linkedin.com/in/thareefa-m-83a75436b" target="_blank">🔗 LinkedIn</a><br>
+  <a href="https://github.com/thareefa" target="_blank">Github</a><br>
+  <a href="phone:8608646123"></a>
+  </section>
